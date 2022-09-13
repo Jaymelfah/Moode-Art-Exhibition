@@ -272,7 +272,7 @@ a:hover {
   width: 90%;
   padding: 0.8rem;
   margin-bottom: 10%;
-  margin-top: 10%;
+  margin-top: 20%;
   background: #fff;
   border: 0.5px solid #272a31;
   cursor: pointer;
@@ -455,7 +455,7 @@ a:hover {
   margin-right: 3%;
   row-gap: 2.5rem;
   margin-top: 10%;
-  margin-bottom: 0;
+  margin-bottom: -10%;
 }
 
 .speakers-container2 {
