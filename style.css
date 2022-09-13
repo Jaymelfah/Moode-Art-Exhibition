@@ -229,6 +229,7 @@ a:hover {
   display: flex;
   align-self: center;
   color: #ec5242;
+  font-size: 15px;
 }
 
 .namedesc {
@@ -236,6 +237,7 @@ a:hover {
   display: flex;
   align-self: center;
   margin: 0;
+  font-size: 12px;
 }
 
 .reg-btn {
@@ -580,6 +582,10 @@ a:hover {
   margin-top: 3rem;
 }
 
+.partner-img {
+  width: 80px;
+}
+
 /* Bigger Screen (Desktop) Version */
 @media only screen and (min-width: 768px) {
   .ham-nav,
@@ -670,7 +676,7 @@ a:hover {
   .main-program {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 700px;
     justify-content: center;
     align-items: center;
   }
@@ -689,7 +695,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 100%;
     margin: 0;
   }
 
@@ -767,5 +773,21 @@ a:hover {
     display: flex;
     gap: 10%;
     width: 80%;
+  }
+
+  .fa-solid {
+    font-size: 30px;
+  }
+
+  .desc {
+    font-size: 22px;
+  }
+
+  .namedesc {
+    font-size: 18px;
+  }
+
+  .partner-img {
+    width: 150px;
   }
 }

@@ -15,7 +15,7 @@ menuIcons.forEach((link) => {
 const featuredSpeakers = [
   {
     id: 'speaker1',
-    img: 'Images/Lilian.jpg',
+    img: 'Images/IMG_0755.JPG',
     imgCheckers: 'Images/Checkers-img.png',
     class: 'speakers',
     name: 'Lilian Chase Takma',
@@ -42,7 +42,7 @@ const featuredSpeakers = [
   },
   {
     id: 'speaker4',
-    img: 'Images/speaker3.jpg',
+    img: 'Images/replacement.jpg',
     imgCheckers: 'Images/Checkers-img.png',
     class: 'speakers4',
     name: 'Laura Lordanna',
@@ -60,7 +60,7 @@ const featuredSpeakers = [
   },
   {
     id: 'speaker6',
-    img: 'Images/speaker6.jpg',
+    img: 'Images/Micha.jpg',
     imgCheckers: 'Images/Checkers-img.png',
     class: 'speakers6',
     name: 'Aurora Altaria',
@@ -73,7 +73,7 @@ const featuredSpeakers = [
 const firstTwoSpeakers = [
   {
     id: 'speaker1',
-    img: 'Images/Lilian.jpg',
+    img: 'Images/IMG_0755.JPG',
     imgCheckers: 'Images/Checkers-img.png',
     class: 'speakers',
     name: 'Lilian Chase Takma',
@@ -103,7 +103,7 @@ const lastFourSpeakers = [
   },
   {
     id: 'speaker4',
-    img: 'Images/speaker3.jpg',
+    img: 'Images/replacement.jpg',
     imgCheckers: 'Images/Checkers-img.png',
     class: 'speakers42',
     name: 'Laura Lordanna',
@@ -121,7 +121,7 @@ const lastFourSpeakers = [
   },
   {
     id: 'speaker6',
-    img: 'Images/speaker6.jpg',
+    img: 'Images/Micha.jpg',
     imgCheckers: 'Images/Checkers-img.png',
     class: 'speakers62',
     name: 'Aurora Altaria',
@@ -132,6 +132,7 @@ const lastFourSpeakers = [
 const speakersCont = document.querySelector('.speakers-container');
 const speakersCont2 = document.querySelector('.speakers-container2');
 const speakersCont3 = document.querySelector('.speakers-container3');
+const query = window.matchMedia('(min-width: 768px)');
 firstTwoSpeakers.forEach((obj) => {
   const div1 = document.createElement('div');
   div1.classList.add(obj.class);
@@ -205,7 +206,6 @@ seeMore.addEventListener('click', () => {
   }
 });
 
-const query = window.matchMedia('(min-width: 768px)');
 if (query.matches) {
   featuredSpeakers.forEach((obj) => {
     const div1 = document.createElement('div');
