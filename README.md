@@ -30,8 +30,11 @@
 
 > Prepare a JS file 
 
-### Preview of Project page
-![Preview](./Images/Project%20preview.png)
+### Preview of Project desktop page 
+![Preview](./Images/Moode%20Preview.png)
+
+### Preview of Project mobile page
+![Preview](./Images/Moode%20mobile%20preview.png)
 
 ### Kindly Use this link to visit the website 
 > [https://jaymelfah.github.io/Mobile-Portfolio/]
@@ -55,9 +58,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This project design idea was originally coined by Cindy Shin in Benance. (A few adjustments were made to personalize the design)
+- Inspiration by Cindy Shin
 
 ## 📝 License
 

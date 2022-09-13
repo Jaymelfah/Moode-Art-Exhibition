@@ -275,6 +275,12 @@ a:hover {
   cursor: pointer;
 }
 
+.speakers-seemore:hover {
+  -webkit-box-shadow: 0 0 29px 0 rgba(214, 118, 34, 0.83);
+  -moz-box-shadow: 0 0 29px 0 rgba(214, 118, 34, 0.83);
+  box-shadow: 0 0 29px 0 rgba(214, 118, 34, 0.83);
+}
+
 #button-arrow {
   color: #ec5242;
   display: inline;
@@ -568,6 +574,10 @@ a:hover {
 
 .exhibit-cont {
   width: 100%;
+}
+
+.speakers-header {
+  margin-top: 3rem;
 }
 
 /* Bigger Screen (Desktop) Version */
