@@ -10,7 +10,9 @@ menuIcons.forEach((link) => {
     document.body.classList.remove('hamburger-open');
   });
 });
-
+window.addEventListener('resize', () => {
+  window.location.reload();
+});
 // Array of featured speakers
 const featuredSpeakers = [
   {
@@ -20,16 +22,16 @@ const featuredSpeakers = [
     class: 'speakers',
     name: 'Lilian Chase Takma',
     credentials: 'CEO of Moode Art Enterprise',
-    Interest: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga culpa vitae sed est beatae ex, possimus odio.     Incidunt, excepturi quo.',
+    Interest: 'She draws on global influences to create warm, richly symbolic paintings and illustrations. With a studio based outside of New Orleans in historic Covington, Louisiana, Marianne is often inspired by the symbiosis of communities and the natural landscapes they inhabit.',
   },
   {
     id: 'speaker2',
-    img: 'Images/speaker4.jpg',
+    img: 'Images/speaker-replacement.jpg',
     imgCheckers: 'Images/Checkers-img.png',
     class: 'speakers2',
     name: 'Ronal Kawaski',
     credentials: 'Professor of Art science at the University of London',
-    Interest: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga culpa vitae sed est beatae ex, possimus odio.     Incidunt, excepturi quo.',
+    Interest: 'I have a background in apparel design so tactility and texture is a feature that I love. I have some raw canvas paintings with fabric sewn throughout which I encourage people to touch.',
   },
   {
     id: 'speaker3',
@@ -38,7 +40,7 @@ const featuredSpeakers = [
     class: 'speakers3',
     name: 'Jay Ekow Melfah',
     credentials: 'Director of Moode Art Enterprise',
-    Interest: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga culpa vitae sed est beatae ex, possimus odio.     Incidunt, excepturi quo.',
+    Interest: 'Meant to describe a person who migrates to Nantucket, an island thirty miles out to sea, the term just so happens to perfectly describe Jay’s love for photography, too',
   },
   {
     id: 'speaker4',
@@ -47,7 +49,7 @@ const featuredSpeakers = [
     class: 'speakers4',
     name: 'Laura Lordanna',
     credentials: 'Artist at Moode Art Enterprise',
-    Interest: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga culpa vitae sed est beatae ex, possimus odio.     Incidunt, excepturi quo.',
+    Interest: 'She offers both originals and prints in her online shop -- and prints start at $35 so check it out now if not sooner. We caught up with Marianne to learn about how her artist journey what its like running her own business. ',
   },
   {
     id: 'speaker5',
@@ -56,7 +58,7 @@ const featuredSpeakers = [
     class: 'speakers5',
     name: 'Carimae Lucy Andelle',
     credentials: 'Photographer at Moode Art Enterprise',
-    Interest: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga culpa vitae sed est beatae ex, possimus odio.     Incidunt, excepturi quo.',
+    Interest: 'Theres always something that needs to be done, Im my own biggest critic and often press myself to make everything perfect. The work is non-stop but it is joyful, fulfilling work.',
   },
   {
     id: 'speaker6',
@@ -65,7 +67,7 @@ const featuredSpeakers = [
     class: 'speakers6',
     name: 'Aurora Altaria',
     credentials: 'Photographer at Moode Art Enterprise',
-    Interest: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga culpa vitae sed est beatae ex, possimus odio.     Incidunt, excepturi quo.',
+    Interest: 'I like to show a variety of framing options to my clients for works on paper, it really helps them envision and find a good fit for their individual interior style.',
   },
 ];
 
@@ -78,16 +80,16 @@ const firstTwoSpeakers = [
     class: 'speakers',
     name: 'Lilian Chase Takma',
     credentials: 'CEO of Moode Art Enterprise',
-    Interest: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga culpa vitae sed est beatae ex, possimus odio.     Incidunt, excepturi quo.',
+    Interest: 'She draws on global influences to create warm, richly symbolic paintings and illustrations. With a studio based outside of New Orleans in historic Covington, Louisiana, Marianne is often inspired by the symbiosis of communities and the natural landscapes they inhabit.',
   },
   {
     id: 'speaker2',
-    img: 'Images/speaker4.jpg',
+    img: 'Images/speaker-replacement.jpg',
     imgCheckers: 'Images/Checkers-img.png',
     class: 'speakers2',
     name: 'Ronal Kawaski',
     credentials: 'Professor of Art science at the University of London',
-    Interest: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga culpa vitae sed est beatae ex, possimus odio.     Incidunt, excepturi quo.',
+    Interest: 'I have a background in apparel design so tactility and texture is a feature that I love. I have some raw canvas paintings with fabric sewn throughout which I encourage people to touch.',
   },
 ];
 // Last four
@@ -99,7 +101,7 @@ const lastFourSpeakers = [
     class: 'speakers32',
     name: 'Jay Ekow Melfah',
     credentials: 'Director of Moode Art Enterprise',
-    Interest: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga culpa vitae sed est beatae ex, possimus odio.     Incidunt, excepturi quo.',
+    Interest: 'Meant to describe a person who migrates to Nantucket, an island thirty miles out to sea, the term just so happens to perfectly describe Jay’s love for photography, too',
   },
   {
     id: 'speaker4',
@@ -108,7 +110,7 @@ const lastFourSpeakers = [
     class: 'speakers42',
     name: 'Laura Lordanna',
     credentials: 'Artist at Moode Art Enterprise',
-    Interest: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga culpa vitae sed est beatae ex, possimus odio.     Incidunt, excepturi quo.',
+    Interest: 'She offers both originals and prints in her online shop -- and prints start at $35 so check it out now if not sooner. We caught up with Marianne to learn about how her artist journey what its like running her own business. ',
   },
   {
     id: 'speaker5',
@@ -117,7 +119,7 @@ const lastFourSpeakers = [
     class: 'speakers52',
     name: 'Carimae Lucy Andelle',
     credentials: 'Photographer at Moode Art Enterprise',
-    Interest: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga culpa vitae sed est beatae ex, possimus odio.     Incidunt, excepturi quo.',
+    Interest: 'Theres always something that needs to be done, Im my own biggest critic and often press myself to make everything perfect. The work is non-stop but it is joyful, fulfilling work.',
   },
   {
     id: 'speaker6',
@@ -126,7 +128,7 @@ const lastFourSpeakers = [
     class: 'speakers62',
     name: 'Aurora Altaria',
     credentials: 'Photographer at Moode Art Enterprise',
-    Interest: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga culpa vitae sed est beatae ex, possimus odio.     Incidunt, excepturi quo.',
+    Interest: 'I like to show a variety of framing options to my clients for works on paper, it really helps them envision and find a good fit for their individual interior style.',
   },
 ];
 const speakersCont = document.querySelector('.speakers-container');
@@ -153,7 +155,7 @@ firstTwoSpeakers.forEach((obj) => {
   h4.classList.add('speaker-credentials');
   h4.textContent = obj.credentials;
   const span = document.createElement('span');
-  span.classList.add('small-line', 'cal');
+  span.classList.add('cal');
   const par = document.createElement('p');
   par.classList.add('speaker-interest');
   par.textContent = obj.Interest;
@@ -187,7 +189,7 @@ seeMore.addEventListener('click', () => {
       h4.classList.add('speaker-credentials');
       h4.textContent = obj.credentials;
       const span = document.createElement('span');
-      span.classList.add('small-line', 'cal');
+      span.classList.add('cal');
       const par = document.createElement('p');
       par.classList.add('speaker-interest');
       par.textContent = obj.Interest;
@@ -227,7 +229,7 @@ if (query.matches) {
     h4.classList.add('speaker-credentials');
     h4.textContent = obj.credentials;
     const span = document.createElement('span');
-    span.classList.add('small-line', 'cal');
+    span.classList.add('cal');
     const par = document.createElement('p');
     par.classList.add('speaker-interest');
     par.textContent = obj.Interest;
