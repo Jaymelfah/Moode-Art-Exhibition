@@ -37,7 +37,7 @@
 ![Preview](./Images/Moode%20mobile%20preview.png)
 
 ### Kindly Use this link to visit the website 
-> [https://jaymelfah.github.io/Mobile-Portfolio/]
+> https://jaymelfah.github.io/Moode-Art-Exhibition/
 
 ## Authors
 
