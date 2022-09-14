@@ -797,4 +797,16 @@ a:hover {
   .partner-img {
     width: 150px;
   }
+
+  .about-partner {
+    display: none;
+  }
+
+  .about-signoff {
+    background-color: #272a31;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-bottom: 0;
+    color: #fff;
+  }
 }
