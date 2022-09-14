@@ -10,9 +10,7 @@ menuIcons.forEach((link) => {
     document.body.classList.remove('hamburger-open');
   });
 });
-window.addEventListener('resize', () => {
-  window.location.reload();
-});
+
 // Array of featured speakers
 const featuredSpeakers = [
   {
