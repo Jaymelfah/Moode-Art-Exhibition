@@ -4,7 +4,7 @@
 # Moode Art Exhibition
 
 ### Project Description
->The Primary purpose of this project is to build a website for an art exhibition for Moode (An online art company).
+>The Primary purpose of this project is to build a website for an art exhibition for Moode (An online art company).Moode will showcase her art this year. The website shows the program for the exhibition and gives an opportunity for people to register to be part of the program. Featured speakers are also enlisted.
 
 
  ### Objectives
@@ -38,6 +38,12 @@
 
 ### Kindly Use this link to visit the website 
 > https://jaymelfah.github.io/Moode-Art-Exhibition/
+
+### A video description of the program
+> https://www.loom.com/share/11d7aa00efd64bb69d63409141300ada
+
+### Preview of video 
+![Preview](./Images/Loom%20preview.png)
 
 ## Authors
 
