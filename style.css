@@ -266,24 +266,6 @@ a:hover {
   align-items: center;
 }
 
-.speakers-seemore {
-  margin-left: 3%;
-  margin-right: 3%;
-  width: 90%;
-  padding: 0.8rem;
-  margin-bottom: 10%;
-  margin-top: 20%;
-  background: #fff;
-  border: 0.5px solid #272a31;
-  cursor: pointer;
-}
-
-.speakers-seemore:hover {
-  -webkit-box-shadow: 0 0 29px 0 rgba(214, 118, 34, 0.83);
-  -moz-box-shadow: 0 0 29px 0 rgba(214, 118, 34, 0.83);
-  box-shadow: 0 0 29px 0 rgba(214, 118, 34, 0.83);
-}
-
 #button-arrow {
   color: #ec5242;
   display: inline;
@@ -479,6 +461,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-left: 20%;
 }
 
 .speaker-credentials {
@@ -504,7 +487,7 @@ a:hover {
 }
 
 .footer-section {
-  display: none;
+  margin-top: 20%;
 }
 
 .exhibit-cont {
@@ -519,6 +502,16 @@ a:hover {
 
 .partner-img {
   width: 80px;
+}
+
+.speakers,
+.speakers2,
+.speakers3,
+.speakers4,
+.speakers5,
+.speakers6 {
+  display: flex;
+  padding-right: 0.8rem;
 }
 
 /* Bigger Screen (Desktop) Version */
@@ -655,6 +648,7 @@ a:hover {
 
   .footer-section {
     display: block;
+    margin-top: 0;
   }
 
   .speakers-container {
@@ -669,16 +663,6 @@ a:hover {
 
   .speaker-details {
     margin-left: 20%;
-  }
-
-  .speakers,
-  .speakers2,
-  .speakers3,
-  .speakers4,
-  .speakers5,
-  .speakers6 {
-    display: flex;
-    padding-right: 0.8rem;
   }
 
   .small-line {
