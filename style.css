@@ -458,78 +458,6 @@ a:hover {
   margin-bottom: -10%;
 }
 
-.speakers-container2 {
-  display: none;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "a""b""c""d";
-  margin-left: 3%;
-  margin-right: 3%;
-  row-gap: 2.5rem;
-  margin-top: 10%;
-  height: 580px;
-}
-
-.speakers32,
-.speakers42,
-.speakers52,
-.speakers62 {
-  display: flex;
-  justify-content: space-between;
-  gap: 20%;
-}
-
-.speakers32 {
-  grid-area: a;
-}
-
-.speakers42 {
-  grid-area: b;
-}
-
-.speakers52 {
-  grid-area: c;
-}
-
-.speakers62 {
-  grid-area: d;
-}
-
-.speakers,
-.speakers2,
-.speakers3,
-.speakers4,
-.speakers5,
-.speakers6 {
-  display: flex;
-  justify-content: space-between;
-  gap: 20%;
-}
-
-.speakers {
-  grid-area: a;
-}
-
-.speakers2 {
-  grid-area: b;
-}
-
-.speakers3 {
-  grid-area: c;
-}
-
-.speakers4 {
-  grid-area: d;
-}
-
-.speakers5 {
-  grid-area: e;
-}
-
-.speakers6 {
-  grid-area: f;
-}
-
 .speaker-img {
   position: relative;
 }
@@ -597,10 +525,7 @@ a:hover {
 @media only screen and (min-width: 768px) {
   .ham-nav,
   .nav-toggle,
-  .reg-btn,
-  .speakers-seemore,
-  .speakers-container,
-  .speakers-container2 {
+  .reg-btn {
     display: none;
   }
 
@@ -732,17 +657,18 @@ a:hover {
     display: block;
   }
 
-  .speakers-container3 {
+  .speakers-container {
+    margin-top: 0;
+    margin-bottom: 10%;
+    padding-top: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "a b""c d""e f";
-    margin-left: 15%;
-    margin-right: 15%;
-    row-gap: 1.5rem;
-    margin-top: 0%;
-    margin-bottom: 0;
-    height: 650px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 40rem;
+  }
+
+  .speaker-details {
+    margin-left: 20%;
   }
 
   .speakers,
@@ -752,8 +678,7 @@ a:hover {
   .speakers5,
   .speakers6 {
     display: flex;
-    justify-content: space-around;
-    gap: 20%;
+    padding-right: 0.8rem;
   }
 
   .small-line {
@@ -762,7 +687,7 @@ a:hover {
   }
 
   .speakers-header {
-    margin-top: 3rem;
+    margin-top: 7rem;
   }
 
   .partner-list {
